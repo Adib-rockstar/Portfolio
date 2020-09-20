@@ -1,0 +1,317 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=B612' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Portfolio</title>
+
+        <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        nav{
+            top:0px;
+            width:100%;
+            background-color:	#505050;
+            height:70px;
+            box-shadow: 5px 5px 8px #f2f2f2;
+            position: fixed;
+        }
+        nav ul {
+            margin:0;
+            padding:0;
+            list-style: none;
+        }
+        .navbar a {
+            display: inline-block;
+            color: #f2f2f2;
+            text-align: center;
+            text-decoration: none;
+            margin-left:25px;
+            position: relative;
+        }
+        nav li {
+            display: inline-block;
+            margin-left:25px;
+            padding-top:23px;
+            
+        }
+        .listfont{
+            text-transform: uppercase;
+            color:#f5f5f5;
+            font-family: 'B612';
+            font-size: 17px;
+            
+        }
+        .listfont:hover{
+            text-transform: uppercase;
+            color: red;
+            font-family: 'B612';
+            font-size: 17px;
+            font:bold;
+        }
+        .linehover::before{
+            content: "";
+            display: block;
+            height:3px;
+            width:0%;
+            bottom:0px;
+            background-color: #f5f5f5;
+            position: absolute;
+            transition: ease-in-out 300ms;
+        }
+        .linehover:hover::before{
+            width:100%;
+        }
+        .labhover{
+            color:#f5f5f5;
+        }
+        .rockstarhover{
+            color:red;}
+        .box {
+            background-color: #f5f5f5;
+            height:65%;
+            width:67%;
+            margin-top:150px;
+            padding: 0px;
+            border: 5px solid #FA8072;
+            /*border-bottom: 70px solid #FA8072;*/
+        }
+        .boxtwo{
+            background-color: #FA8072;;
+            height:8%;
+            width:60%;
+            margin-top:0%;
+            padding:0px;
+            border: 5px solid #FA8072;
+        }
+        .fa {
+            padding: 5px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 0%;
+        }
+        .fa-facebook:hover {
+            color :#3B5998;
+        }
+        .fa-facebook {
+            background: #FA8072;
+            color: white;
+        }
+        .fa-linkedin:hover{
+            color:#007bb5;
+        }
+        .fa-linkedin {
+            background: #FA8072;
+            color: white;
+        }
+        .fa-instagram {
+            background:#FA8072;
+            color:white;
+        }
+        .fa-instagram:hover{
+            color:#8a3ab9;
+        }
+        .fa-github {
+            background:#FA8072;
+            color:white;
+        }
+        .fa-github:hover{
+            color:black;
+        }
+        .titless{
+            color:#f5f5f5;
+            font-family:'B612';
+            font-size:40px;
+            text-align:center;
+        }
+        .titless:hover{
+            color:red;        
+        }
+        #section1 {
+            padding-top:0px;
+            height:10px;
+        }
+        #section2 {
+            padding-top:0px;
+        }
+        #section3 {
+            padding-top:0px;
+            height:400px;
+        }
+        .boxthree{
+            background-color: #f5f5f5;
+            height:45%;
+            width:50%;
+            padding: 0px;
+            border: 5px solid #FA8072;
+        }
+        .boxfour{
+            background-color: #f5f5f5;
+            height:72%;
+            width:40%;
+            padding: 0px;
+            border: 5px solid #FA8072;
+        }
+        .professionalhover:hover{
+            background-color: 	#79CDCD;
+            border:5px;
+            border-radius: 25px;
+            padding:0px;
+            transition: 1s;
+        }
+        input[type=text]{
+            height:90%;
+            width:90%;
+            font-size:25px;
+            border:2px solid gray;
+            border-radius: 4px;
+            margin:4px;
+            outline: none;
+            padding:8px;
+            box-sizing: border-box;
+        }
+        input[type=text]:focus{
+            border-color:#FA8072;
+            box-shadow: 0 5px 15px 0 #FA8072;
+        }
+        textarea{
+            width:90%;
+            font-size:25px;
+            border:2px solid gray;
+            border-radius: 4px;
+            margin:4px;
+            outline: none;
+            padding:8px;
+            box-sizing: border-box;
+        }
+        textarea:focus{
+            border-color:#FA8072;
+            box-shadow: 0 5px 15px 0 #FA8072;
+        }
+        
+        </style>
+
+    </head>
+    <body   style="margin: 0%;background-color: #606060;">
+        <div id="section1">
+        <nav  class="navbar">
+            <ul>
+                <li style="padding-right: 40%;"><a style="font-family: 'B612';font-size: 25px;"><span class="rockstarhover" ><b>ROCKSTARL</b></span><span class="labhover"><b>LABS</span></a></li>
+                <li><a class="listfont linehover" href="#section1" >ABOUT</a></li>
+                <li ><a class="listfont linehover" href="#section2">SKILLS</a></li>
+                <li ><a class="listfont linehover" href="#section3">CONTACT US</a></li>
+            </ul>
+        </nav>
+        </div>
+        <center>
+            <div class="box">
+                <table border="0px">
+                    <tr>
+                        <td style=" height: 400px;width:300px;"><img height="300px" width="250px" src="https://user-images.githubusercontent.com/57314038/93714224-dff44480-fb7e-11ea-8f44-73cd73fd9c8f.jpg"></td>
+                        <td style="width:500px;" >
+                            <p style="margin:0%;font-family: 'B612';font-size: 20   px;color:#f5f5f5 ;background-color: #FA8072;display:inline-block;"><b>&nbsp;&nbsp;HELLO&nbsp;&nbsp;  </b></p>
+                            <p style="margin-top:25px;margin-bottom:0%;font-family: 'B612';font-size: 35px;color:black ;"><span style="color:gray">I'm</span><b> Adib Puthawala</b></p>
+                            <p style="margin-top:0%;margin-bottom:0%;font-size: 20px;color: gray;">Developer and Artist</p>
+                            <div style="margin-top:1%;margin-bottom:2%;height: 2px;width:85%;background-color: gray;"></div>
+                            <table border="0px" cellpadding="8px" >
+                                <tr>
+                                    <td style="width:150px;font-size: 15px;color: #FA8072;"><b>AGE</b></td>
+                                    <td style="color:gray"><b>21</b></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 15px;color: #FA8072;"><b>ADDRESS</b></td>
+                                    <td style="color:gray"><b>1582,Kamkoriwala pole baluchawad Dariyapur<br>Ahmedabad 380001</b></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 15px;color: #FA8072;"><b>E-MAIL</b></td>
+                                    <td style="color:gray"><b>puthawalaadib@gmail.com</b></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 15px;color: #FA8072;"><b>PHONE</b></td>
+                                    <td style="color:gray"><b>+91 75750 13525</b></td>
+                                </tr>
+                            </table>
+                        </td>    
+                    </tr>
+                </table>
+            </div>
+            <div  class="boxtwo"  >
+                <table>
+                    <tr>
+                        <td style="width: 30%;"><a href="#" class="fa fa-facebook"></a></td>
+                        <td style="width: 30%;"><a href="#" class="fa fa-linkedin"></a></td>
+                        <td style="width: 30%;"><a href="#" class="fa fa-instagram"></a></td>
+                        <td style="width: 30%;"><a href="#" class="fa fa-github"></a></td>
+                    </tr>
+                </table>
+            </div>
+            <table style="padding-bottom:0%;">
+                <tr>
+                    <td style="padding-top:10%;font-family:'B612'; font-size:20px;text-align: justify; color:#f5f5f5;">Hello! I'm Adib Puthawala.<br>A beginner in web development  and many more languages.<br>Just completed my Bachelor in Computer Application from St. Xavier's College (Autonomous) </td>
+                </tr>
+            </table>
+            <div id="section2" style="padding-top: 6%;">
+                <a class="titless" >Professional Skills</a>
+                    <div class="boxthree"  >
+                        <table cellspacing=0 >
+                            <tr class="professionalhover" >
+                                <td style="padding:15px;font-size:35px;color:#FA8072;"><b>C&nbsp;&nbsp;&nbsp;</b></td>
+                                <td style="padding:15px;font-size:35px;color:red;"><b>--</b></td>
+                                <td style="padding:15px;color:gray;font-size:35px;"><b>&nbsp;&nbsp;&nbsp;Average</b></td>
+                            </tr>
+                            <tr class="professionalhover">
+                                <td style="padding:15px;font-size:35px;color:#FA8072;"><b>JAVA&nbsp;&nbsp;&nbsp;</b></td>
+                                <td style="padding:15px;font-size:35px;color:red;"><b>--</b></td>
+                                <td style="padding:15px;color:gray;font-size:35px;"><b>&nbsp;&nbsp;&nbsp;Average</b></td>
+                            </tr>
+                            <tr class="professionalhover">
+                                <td style="padding:15px;font-size:35px;color:#FA8072;"><b>HTML & CSS&nbsp;&nbsp;&nbsp;</b></td>
+                                <td style="padding:15px;font-size:35px;color:red;"><b>--</b></td>
+                                <td style="padding:15px;color:gray;font-size:35px;"><b>&nbsp;&nbsp;&nbsp;Average</b></td>
+                            </tr>
+                            <tr class="professionalhover">
+                                <td style="padding:15px;font-size:35px;color:#FA8072;"><b>PYTHON&nbsp;&nbsp;&nbsp;</b></td>
+                                <td style="padding:15px;font-size:35px;color:red;"><b>--</b></td>
+                                <td style="padding:15px;color:gray;font-size:35px;"><b>&nbsp;&nbsp;&nbsp;Average</b></td>
+                            </tr>
+                        </table>
+                    </div>
+            </div>
+            <table style="padding-bottom:5%;" >
+                <tr>
+                    <td style="padding-top:10%;font-family:'B612'; font-size:20px;text-align: justify; color:#f5f5f5;">I also learned how to use Photoshop but not considering it as professional skills.<br>I mainly use Photoshop for fun and personal use.</td>
+                </tr>
+            </table>            
+            <a  class="titless"  id="section3">CONTACT US</a>
+            <div class="boxfour">
+                <form action="mailto:puthawalaadib@gmail.com" method="post" enctype="text/plain">
+                <table border=0 style="padding:2%;">
+                    <tr>
+                        <td colspan=2 style="width:400px;height:75px;color:gray;text-align: left;font-size: 40px;"><b>Feel free to contact me</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 style="width:400px;height:55px;"><input type=text placeholder="NAME" name="name" style="color:#FA8072;font-style:bold;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 style="width:400px;height:55px;"><input type=text placeholder="EMAIL" name="email" style="color:#FA8072;font-style:bold;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 style="width:400px;height:55px;"><input type=text placeholder="SUBJECT" name="subject" style="color:#FA8072;font-style:bold;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2><textarea name="message" rows="3" cols="30" placeholder="MESSAGE" name="message" style="color:#FA8072;font-style:bold;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td style="width:300px;height:55px;"><b><input type="submit" value="Send" style="height:40px;width:40%;"></b></td>
+                        <td style="width:300px;height:55px;"><b><input type="reset" value="Reset" style="height:40px;width:40%;"></b></td>
+                        
+                    </tr>
+                </table>
+            </form>
+            </div>
+        </center>
+    </body>
+</html>
